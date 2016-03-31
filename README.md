@@ -1,1 +1,2 @@
-# Tranquil Project Site
+# Tranquil Project Web Site
+Website for Tranquil project
