@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Code Pro";
+    font-size: 14px;
+    line-height: 1.75em;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.main {
+    width: 80%;
+    display: block;
+    float: left;
+    height: 100%;
+}
+
+.lgo-wpr {
+    z-index: 99;
+    display: block;
+    overflow: hidden;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+}
+
+.lgo {
+    width: 50%;
+}
+
+.vdo-wrapper {
+    width: 853px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.vdo {
+    position: relative;
+    clear: both;
+}
+
+.vdo.upsidedown {
+    transform: rotate(180deg);
+}
+
+.full-screen .vdo.upsidedown {
+    transform: translateX(-50%) translateY(-50%) rotate(180deg) !important;
+}
+
+.vdo-a {
+    top: 0;
+    position: absolute;
+}
+
+.div-test {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: solid white 10px;
+    z-index: 9;
+}
+
+/* Full Screen Video Options */
+.full-screen .main {
+    width: 100%;
+}
+
+.full-screen .vdo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.opg-chrome {
+    text-align: center;
+    font-weight: bold;
+}
+
+.supported-device .opg-chrome {
+    display: none;
+}
+
+.opg-responsive {
+    display: none;
+}
+
+.non-supported-device .main {
+    background: #000;
+}
+
+.non-supported-device.full-screen .demo-notes {
+    display: none;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
+
+.non-supported-device .opg-instructions,
+.non-supported-device .opg-play,
+.non-supported-device .opg-responsive,
+.non-supported-device .opg-credits,
+.non-supported-device .opg-credits-long {
+    display: none;
+}
+
+.nsd-text {
+    display: none;
+}
+
+.non-supported-device .nsd-text {
+    display: block;
+}
+
+.responsive-page .opg-responsive {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}*/
+
+.responsive-page.full-screen .vdo {
+    top: 0;
+    left: 0;
+    -moz-transform: translateX(0%) translateY(0%);
+    -webkit-transform: translateX(0%) translateY(0%);
+    transform: translateX(0%) translateY(0%);
+}
+
+.full-screen .demo-notes {
+    top: auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+    z-index: 9;
+}
+
+.full-screen .vdo-wrapper {
+    width: 100%;
+    margin: 0;
+}
+
+.full-screen .logging{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.production .logging {
+    display: none;
+}
+
+
+/* Social */
+
+/* Instagram */
+
+.ig-b- { display: inline-block; }
+.ig-b- img { visibility: hidden; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-v-24 { width: 137px; height: 24px; background: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.ig-b-v-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png); background-size: 160px 178px; } }
+
+/* Twitter */
+
+.opg-social-list-item-twtr {
+    width: 100px;
+    display: inline;
+}

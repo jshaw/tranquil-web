@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>TRANQUIL</title>
+
+    <link rel="icon" type="image/x-icon" href="./static/img/favicons/#TODO.png" />
+    <link rel="icon" type="image/png" href="./static/img/favicons/#TODO.png" sizes="16x16">
+
+    <meta name="description" content="TRANQUIL">
+    <meta name="keywords" content="Tranquil">
+
+    <meta property="og:title" content="Tranquil" />
+    <meta property="og:site_name" content="Tranquil"/>
+    <meta property="og:url" content="http://tranquiloffline.com" />
+    <meta property="og:image" content="#TODO" />
+    <meta property="og:description" content='#TODO' />
+    <meta property="og:type" content="video"/>
+    <meta property="og:video" content="#TODO/1-Apartment.mp4"/>
+    <meta property="fb:app_id" content="#TODO" />
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Amatic+SC' rel='stylesheet' type='text/css'>
+
+    <!-- Put twitter back in? -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <!--  -->
+
+</head>
+<body class="lang-en home-page full-screen production">
+
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '#TODO',
+          xfbml      : true,
+          version    : 'v2.3'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <link rel="stylesheet" href="static/style.css" type="text/css" />
+
+    <section class="content">
+        <section id="Main" class="main">
+            <div id="Logo" class="lgo-wpr"><img class="lgo" src="./static/img/tranquil_white_transparent.png" alt="Tranquil"></div>
+            <div class="vdo-wrapper">
+                <video src="./static/video/V93_web.mp4" id="VideoA" class="vdo vdo-a" width="100%" height="100%" preload="auto" loop="true" autoplay="true" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></video>
+            </div>
+        </section>
+    </section>
+
+    <!-- GOOGLE ANALYTICS -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-75778780-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
